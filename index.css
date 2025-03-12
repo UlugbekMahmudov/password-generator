@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 }
 
 .container {
@@ -13,8 +14,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     padding-bottom: 20px;
-    width: 100%;  /* Make sure it takes full width inside body */
-    max-width: 400px;  /* Limit the container's maximum width */
+    
 }
 
 

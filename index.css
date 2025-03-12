@@ -6,7 +6,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
 }
 
 .container {
@@ -14,6 +13,7 @@ body {
     padding: 10px;
     border-radius: 5px;
     padding-bottom: 20px;
+    margin-left: 100px;
     
 }
 

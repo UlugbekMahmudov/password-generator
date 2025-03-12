@@ -3,8 +3,16 @@ body {
     padding: 20px;
     background-color: #1F2937;
     max-width: 400px;
-    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: auto;
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
 h1 {

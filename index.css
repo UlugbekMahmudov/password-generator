@@ -1,11 +1,7 @@
 body {
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
     background-color: #1F2937;
-    height: 100vh;  /* Use full viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .container {
@@ -14,7 +10,6 @@ body {
     border-radius: 5px;
     padding-bottom: 20px;
     margin-left: 100px;
-    
 }
 
 

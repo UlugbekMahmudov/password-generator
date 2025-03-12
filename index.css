@@ -1,7 +1,11 @@
 body {
     margin: 0;
-    padding-top: 50px;
+    padding: 0;
     background-color: #1F2937;
+    height: 100vh;  /* Use full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -9,8 +13,10 @@ body {
     padding: 10px;
     border-radius: 5px;
     padding-bottom: 20px;
-    margin-left: 100px;
+    width: 100%;  /* Make sure it takes full width inside body */
+    max-width: 400px;  /* Limit the container's maximum width */
 }
+
 
 
 
